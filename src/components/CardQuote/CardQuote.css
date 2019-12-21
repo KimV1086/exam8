@@ -1,14 +1,14 @@
 .CardQuote{
     max-width: 600px;
     margin: 0 auto;
-    border: 1px solid #ffbb42;
+    border: 1px solid #cccccc;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 40px;
 }
 .Edit,
 .Delete{
-    background: #ffbb42;
+    background: #cccccc;
     border: transparent;
     border-radius: 5px;
     padding: 10px;
