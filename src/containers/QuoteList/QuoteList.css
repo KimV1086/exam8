@@ -1,0 +1,28 @@
+.MainWrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.Category {
+    width: 30%;
+    margin-top: 28px;
+    margin-left: 40px;
+    border: 1px solid #ffbb42;
+    border-radius: 5px;
+    height: 80vh;
+}
+
+.Category a {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #000000;
+    text-align: start;
+    margin-left: 40px;
+}
+
+.AllQuotes {
+    width: 70%;
+    margin: 0;
+}

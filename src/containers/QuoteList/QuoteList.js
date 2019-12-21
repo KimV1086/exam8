@@ -15,9 +15,9 @@ class QuoteList extends Component {
     };
 
     loadData() {
-        let url = 'quotes.json';
+        let url = '/quotes.json';
 
-        const categoryId = this.props.match.params.category;
+        const categoryId = this.props.match.params.id;
         if (categoryId) {
             url += `?orderBy="category"&equalTo="${categoryId}"`;
         }
